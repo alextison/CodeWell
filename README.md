@@ -1,6 +1,6 @@
-Comment Module: Not Started Yet ❌
-Hosterr Waitlist Page: Not Started Yet ❌
-Meeet Waitlist Template: Not Started Yet ❌
-Newsletter Popup Template: Finished ✔️
-Snipper Landing Page: Not Started Yet ❌
-YelpCamp by Colt Steele: Not Started Yet ❌
+Comment Module: Not Started Yet ❌ <br>
+Hosterr Waitlist Page: Not Started Yet ❌ <br>
+Meeet Waitlist Template: Not Started Yet ❌ <br>
+Newsletter Popup Template: Finished ✔️ <br>
+Snipper Landing Page: Not Started Yet ❌ <br>
+YelpCamp by Colt Steele: Not Started Yet ❌ <br>
