@@ -1,0 +1,110 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: url("Assets/Background.png") no-repeat;
+  background-size: cover;
+}
+
+body .container {
+  width: 400px;
+  text-align: center;
+}
+
+body .container .top-part {
+  background: #2a5be9;
+  background-size: cover;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+body .container .top-part div {
+  padding: 50px 0;
+  background: url("Assets/Pattern.png") no-repeat;
+  background-size: cover;
+}
+
+body .container .bottom-part {
+  padding: 25px;
+  background: white;
+  border-radius: 0 0 10px 10px;
+}
+
+body .container .bottom-part #first-text {
+  color: #646464;
+}
+
+body .container .bottom-part #input-zone {
+  padding: 25px 0;
+}
+
+body .container .bottom-part #input-zone div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 0 15px 0;
+}
+
+body .container .bottom-part #input-zone div input:first-child {
+  width: 56%;
+  padding: 10px 20px;
+  background: #f0f0f0;
+  color: #969696;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+}
+
+body .container .bottom-part #input-zone div input:last-child {
+  padding: 10px 20px;
+  background: #2a5be9;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #2a5be9;
+}
+
+body .container .bottom-part #input-zone p {
+  text-align: left;
+  color: #969696;
+}
+
+body .container .bottom-part #quote div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container .bottom-part #quote div div {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 0 0 10px;
+  text-align: left;
+}
+
+body .container .bottom-part #quote p {
+  color: #646464;
+}
+
+body .container .bottom-part #quote #last-text {
+  padding: 20px 0 0 0;
+}
+
+p {
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */

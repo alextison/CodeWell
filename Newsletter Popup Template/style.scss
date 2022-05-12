@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url("Assets/Background.png") no-repeat;
+    background-size: cover;
+    .container{
+        width: 400px;
+        text-align: center;
+        .top-part{
+            background: rgb(42, 91, 233);
+            background-size: cover;
+            color: white;
+            border-radius: 10px 10px 0 0;
+            div{
+                padding: 50px 0;
+                background: url("Assets/Pattern.png") no-repeat;
+                background-size: cover;
+            }
+        }
+        .bottom-part{
+            padding: 25px;
+            background: white;
+            border-radius: 0 0 10px 10px;
+            #first-text{
+                color: rgb(100, 100, 100);
+            }
+            #input-zone{
+                padding: 25px 0;
+                div{
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0 0 15px 0;
+                    input:first-child{
+                        width: 56%;
+                        padding: 10px 20px;
+                        background: rgb(240, 240, 240);
+                        color: rgb(150, 150, 150);
+                        border-radius: 5px;
+                        border: 1px solid rgb(220, 220, 220);
+                    }
+                    input:last-child{
+                        padding: 10px 20px;
+                        background: rgb(42, 91, 233);;
+                        color: white;
+                        border-radius: 5px;
+                        border: 1px solid rgb(42, 91, 233);;
+                    }
+                }
+                p{
+                    text-align: left;
+                    color: rgb(150, 150, 150);
+                }
+            }
+            #quote{
+                div{
+                    display: flex;
+                    justify-content: center;
+                    div{
+                        flex-direction: column;
+                        padding: 0 0 0 10px;
+                        text-align: left;
+                    }
+                }
+                p{
+                    color: rgb(100, 100, 100);
+                }
+                #last-text{
+                    padding: 20px 0 0 0;
+                }
+            }
+        }
+    }
+}
+
+p{
+    margin: 0;
+}
